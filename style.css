@@ -811,10 +811,11 @@
             }
 
             .carousel-slides {
-                width: calc(100% * var(--slide-count, 3));
+                width: calc(100% * var(--slide-count, 1));
             }
 
             .stars{
                 font-size: 85%;
             }
         }
+
