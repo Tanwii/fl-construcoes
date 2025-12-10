@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Set WhatsApp link
                 const whatsappBtn = document.getElementById('modalWhatsapp');
                 const whatsappText = `Olá! Gostaria de orçamento para um projeto similar ao: ${title}`;
-                whatsappBtn.href = `https://wa.me/351912345678?text=${encodeURIComponent(whatsappText)}`;
+                whatsappBtn.href = `https://wa.me/351963269781?text=${encodeURIComponent(whatsappText)}`;
                 
                 // Mostrar modal
                 modal.style.display = 'block';
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
 *Data:* ${new Date().toLocaleDateString('pt-PT')}`;
                     
                     // Open WhatsApp - SUBSTITUA PELO NÚMERO REAL
-                    window.open(`https://wa.me/351912345678?text=${whatsappMessage}`, '_blank');
+                    window.open(`https://wa.me/351963269781?text=${whatsappMessage}`, '_blank');
                     
                     // Reset form
                     this.reset();
@@ -203,9 +203,10 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             
             // ========== ATUALIZAR NÚMERO WHATSAPP ==========
-            const whatsappNumber = '351912345678'; // SUBSTITUA PELO NÚMERO REAL
+            const whatsappNumber = '351963269781'; // SUBSTITUA PELO NÚMERO REAL
             document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
                 const currentHref = link.getAttribute('href');
-                link.setAttribute('href', currentHref.replace('351912345678', whatsappNumber));
+                link.setAttribute('href', currentHref.replace('351963269781', whatsappNumber));
             });
         });
+
